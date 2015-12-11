@@ -5,13 +5,16 @@
 To get the date in a DD-MM-YYYY or MM-DD-YYYY format you can use the `formatDate` function where you can set the separator, use:
 
 `jDate.formatDate('-');` //"10-12-2015"
+
 `jDate.formatDate('-', 'us');` //"12-10-2015"
+
 `jDate.formatDate('*', 'us');` //"12*1*2015"
 
 ### Get Time ###
 This will return an object or string with the time of jDate init and timezone.
 
 `jDate.getTime();` //"11:07:58"
+
 `jDate.getTime(true)`//Object {time: "11:07:58", timezone: "GMT+0000"}
 
 
