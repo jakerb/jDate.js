@@ -5,8 +5,6 @@ var jDate = {
     var that = this;
     date = new Date().toString();
     date = date.split(' ');
-    console.log(that.month());
-    
   },
   
   month:function() {
