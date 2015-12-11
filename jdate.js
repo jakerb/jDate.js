@@ -9,22 +9,12 @@ var jDate = {
   
   month:function() {
     var that = this;
-    return {month: date[3], int: that.toNumber(date[3])};
-  },
-  
-  month:function() {
-    var that = this;
     return {month: date[1], int: that.toNumber(date[1])};
   },
   
-  weekDay:function() {
+  day:function() {
     var that = this;
-    return {month: date[0], int: that.toNumber(date[0])};
-  },
-  
-  weekDay:function() {
-    var that = this;
-    return {month: date[2], int: that.toNumber(date[2])};
+    return {day: date[0], int: parseInt(date[2])};
   },
   
   formatDate:function(delim, format) {
