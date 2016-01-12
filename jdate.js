@@ -38,37 +38,37 @@ var jDate = {
     switch(day) {
       case 'Mon':
       case 'Jan':
-          return 1;
+          return 01;
           break;
       case 'Tue':
       case 'Feb':
-          return 2;
+          return 02;
           break;
       case 'Wed':
       case 'Mar':
-          return 3;
+          return 03;
           break;
       case 'Thu':
       case 'Apr':
-          return 4;
+          return 04;
           break;
       case 'Fri':
       case 'May':
-          return 5;
+          return 05;
           break;
       case 'Sat':
       case 'Jun':
-          return 6;
+          return 06;
           break;
       case 'Sun':
       case 'Jul':
-          return 7;
+          return 07;
           break;
       case 'Aug':
-          return 8;
+          return 08;
           break;
       case 'Sep':
-          return 9;
+          return 09;
           break;
       case 'Oct':
           return 10;
@@ -80,7 +80,7 @@ var jDate = {
           return 12;
           break;
       default:
-          return 1;
+          return 01;
           break;
      }
   }
